@@ -19,28 +19,46 @@ input[type="text"] {
 }
 
 button {
-  width: 55px;
+  width: 110%;
   height: 55px;
   font-size: 18px;
-  /* margin: 5px; */
-  background-color: #ef9725;
+  margin: 5px; 
+  
   border: none;
   cursor: pointer;
   color: white;
 }
+.orange{
+  background-color: #ef9725;
+}
+.orange:hover{
+  background-color: whitesmoke;
+  color: black;
+}
 .gray{
   background-color: gray;
+}
+.gray:hover{
+  
+  background-color: whitesmoke;
+  color: black;
+ 
 }
 .white{
   background-color: whitesmoke;
   color: black;
 }
- .zero{
-  background-color: gray;
-}
-
-button:hover {
-  background-color: whitesmoke;
+.white:hover{
+  background-color: #ef9725;
   color: black;
 }
+/* .zero{
+  background-color: gray;
+  width: 90%;
+  height: 70%;
+  margin: 10px;
+  align-content: center;
+  
+} */
+
 
